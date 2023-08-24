@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 
         }
-        $('input').val();
+        $('input').val('');
     });
 
 

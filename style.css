@@ -3,32 +3,35 @@ body {
   font-weight: 500;
 }
 
+#todo {
+  padding-top: 100px;
+}
 #todo .box {
   background-color: #a4caff;
-  width: 230px;
-  height: 250px;
+  width: 250px;
+  height: 230px;
   border-radius: 20px;
   text-align: center;
-  margin-top: 50px;
 }
 #todo .box h1 {
   font-size: 40px;
   color: #ffffff;
-  padding: 15px 0 40px;
+  padding: 20px 0 25px;
   font-weight: 700;
 }
 #todo .box input {
-  padding: 10px 10px;
+  padding: 15px;
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin: 0 10px 30px;
 }
 #todo .box .btn {
   border-radius: 20px;
   background-color: #ffffff;
-  padding: 6px 15px;
+  padding: 6px 20px;
 }
 #todo .minibox {
-  width: 200px;
+  width: -moz-max-content;
+  width: max-content;
   margin-top: 20px;
   text-align: center;
 }
