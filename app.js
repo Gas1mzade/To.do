@@ -22,15 +22,4 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 });
